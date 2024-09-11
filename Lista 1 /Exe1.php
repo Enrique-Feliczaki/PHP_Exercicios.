@@ -45,15 +45,15 @@ class Pessoa{
     public function informaNome(){
         echo "Nome: " . $this->nome;
     }
-    public function ajustaDataDeNascimento($dia,$mes,$ano){
-        echo "Dia de nascimento: " . $dia . "\n";
-        echo "Mes de nascimento: ". $mes . "\n";
-        echo "Ano de nascimento: ". $ano . "\n";
+    public function ajustaDataDeNascimento(){
+        echo "Dia de nascimento: " . $this->dia . "\n";
+        echo "Mes de nascimento: ". $this->mes . "\n";
+        echo "Ano de nascimento: ". $this->ano . "\n";
     } 
 }
 
 $enrique = new Pessoa("Enrique", 16, 8, 2006);
-$enrique->calculaIdade(19,12,2006) . "\n";
+$enrique->calculaIdade(16,8,2006) . "\n";
 echo $enrique->informaNome() . "\n";
 echo $enrique->informaIdade() . "\n";
 echo $enrique->ajustaDataDeNascimento() . "\n";
