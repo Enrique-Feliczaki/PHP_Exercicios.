@@ -57,7 +57,7 @@ class Livro{
     
     }
 
-    $enrique = new Pessoa("Enrique","Rua Voluntários da Pátria","enriqfel@gmail", "42 99835-9225" );
+    $enrique = new Pessoas("Enrique","Rua Voluntários da Pátria","enriqfel@gmail", "42 99835-9225" );
 
     
     $livro1 = new Livro("1984", "George Orwell", 328, true);
